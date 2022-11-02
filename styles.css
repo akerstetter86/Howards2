@@ -1,13 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-
+/* Body Styles */
 body {
-    background-image: url(images/lures.webp);
+    background-color: rgb(67, 74, 136);
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#bait_page {
+    background-image: url(images/lures.webp);
+}
+
+#Home {
+    color: white;
 }
 
 section {
@@ -20,6 +35,59 @@ section {
     padding-top: 25px;
 }
 
+#sec1 {
+    width: 80%;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spool {
+    background-image: url(images/reels.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    display: block;
+    width: 30%;
+    background-color:rgb(255, 255, 255, 0.7) ;
+}
+
+#welcome {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+#con1 {
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: grey;
+    width: 30%;
+    font-size: 20px;
+    padding: 25px;
+    margin: 25px;
+}
+
+#con2 {
+    display: block;
+    float:right;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 25px;
+    margin: 25px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
 th {
     text-align: center;
     font-size: 32px;
@@ -88,6 +156,16 @@ a {
     background-color: rgba(117, 168, 221, 0.797);
     padding: 5px;
 }
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: darkred;
+}
+
+/* footer styles */
 
 footer {
     text-align: center;
