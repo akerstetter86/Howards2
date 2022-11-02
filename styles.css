@@ -1,0 +1,19 @@
+body {
+    background-image: url(images/lures.webp);
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+section {
+    width: 80%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
